@@ -1,0 +1,102 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header span {
+    font-size: 19px;
+    margin: 28px;
+}
+
+.container {
+    background-color: white;
+    border: 2px solid black;
+    width: 53%;
+    margin: 11% auto;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+h2 {
+    padding-top: 33px;
+    margin-bottom: 0;
+}
+
+.line {
+    border: 3px solid black;
+}
+
+.left {
+    font-weight: bold;
+}
+
+.detail {
+    display: flex;
+    padding-left: 10px;
+    gap: 35px;
+    font-size: 17px;
+}
+
+/* untuk responsivitas */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
+
+.gambar {
+    width: 245px;
+    height: 303px;;
+    margin-top: 22px;
+    margin-left: auto;
+    margin-right: auto;  
+    margin-bottom: 30px;
+}
+
+.riwayat-kiri {
+    font-weight: bold;
+}
+
+.riwayat {
+    display: flex;
+    gap: 20px;
+}
+
+.gambar img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    border-radius: 17px;
+    border: 3px solid black;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.github {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.x {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.ig {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
